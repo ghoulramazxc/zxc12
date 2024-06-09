@@ -1,0 +1,14 @@
+﻿<Window x:Class="FoodClassifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Food Classifier" Height="450" Width="800">
+	<Grid>
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+			<TextBlock Text="Food Classifier" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" TextAlignment="Center"/>
+			<Button Name="LoadImageButton" Content="Load Image" Click="LoadImage_Click" Width="200" Margin="0,0,0,10"/>
+			<Button Name="ClassifyImageButton" Content="Classify Image" Click="ClassifyImage_Click" Width="200" Margin="0,0,0,20"/>
+			<Image Name="ImageDisplay" Width="200" Height="200" Margin="0,0,0,20"/>
+			<TextBlock Name="ResultText" FontSize="16" TextAlignment="Center"/>
+		</StackPanel>
+	</Grid>
+</Window>
